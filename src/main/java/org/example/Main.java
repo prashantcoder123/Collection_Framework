@@ -8,15 +8,37 @@ import java.util.List;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-      ArrayList<Integer> List = new ArrayList<>();
-List.add(1);
-List.add(5);
-List.add(80);
-        System.out.println(List.get(2));
-        System.out.println(List.size());
-        for (int i = 0;i< List.size();i++){
-            System.out.println(List.get(i));
+      ArrayList<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(5);
+        list.add(80);
+
+        list.add(2,50);
+
+        for (int x: list){
+            System.out.println(x);
         }
+        System.out.println(list);
+
+
+
+
+
+//        System.out.println(list.get(2));
+//        System.out.println(list.size());
+//        for (int i = 0;i< list.size();i++){
+//            System.out.println(list.get(i));
+//        }
+//        list.remove(2);
+//
+//
+//        for(int x: list){
+//            System.out.println(x);
+//        }
+//        System.out.println(list.contains(5));
+//        System.out.println(list.contains(50));
+
+
     }
 }
 
